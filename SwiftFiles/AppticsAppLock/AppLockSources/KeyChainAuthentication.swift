@@ -119,11 +119,29 @@ class AppLockManager {
         // thread so the UI/CFRunLoop isn't stalled, then deliver results on main.
         DispatchQueue.global(qos: .userInitiated).async {
             var result: AnyObject?
-            let status = SecItemCopyMatching(query as CFDictionary, &result)
+            var status = SecItemCopyMatching(query as CFDictionary, &result)
+
+            // Post-restore self-heal. The sentinels are stored
+            // kSecAttrAccessibleWhenUnlockedThisDeviceOnly, so an iPhone restore
+            // wipes them and this lookup returns errSecItemNotFound (-25300)
+            // WITHOUT presenting any prompt. These items carry no secret — they
+            // exist only to force the Face ID / passcode sheet — so "missing"
+            // means "not provisioned on this device", not "auth failed".
+            // Re-provision both sentinels (adding a protected item needs no auth)
+            // and retry the lookup once so the OS prompt appears on this same
+            // attempt instead of the screen staying silently locked.
+            if status == errSecItemNotFound {
+                self.enableAppLock()
+                status = SecItemCopyMatching(query as CFDictionary, &result)
+            }
 
             DispatchQueue.main.async {
                 completion(status == errSecSuccess)
-                self.handleError(status)
+                // The not-found case is already handled by the re-provision +
+                // retry above; only surface handleError for other statuses.
+                if status != errSecItemNotFound {
+                    self.handleError(status)
+                }
             }
         }
     }
