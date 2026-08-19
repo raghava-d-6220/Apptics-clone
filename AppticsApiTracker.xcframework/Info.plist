@@ -8,6 +8,23 @@
 			<key>BinaryPath</key>
 			<string>AppticsApiTracker.framework/Versions/A/AppticsApiTracker</string>
 			<key>LibraryIdentifier</key>
+			<string>ios-arm64_x86_64-maccatalyst</string>
+			<key>LibraryPath</key>
+			<string>AppticsApiTracker.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+			<key>SupportedPlatformVariant</key>
+			<string>maccatalyst</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>AppticsApiTracker.framework/Versions/A/AppticsApiTracker</string>
+			<key>LibraryIdentifier</key>
 			<string>macos-arm64_x86_64</string>
 			<key>LibraryPath</key>
 			<string>AppticsApiTracker.framework</string>
@@ -37,23 +54,6 @@
 			<key>BinaryPath</key>
 			<string>AppticsApiTracker.framework/AppticsApiTracker</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
-			<key>LibraryPath</key>
-			<string>AppticsApiTracker.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>AppticsApiTracker.framework/AppticsApiTracker</string>
-			<key>LibraryIdentifier</key>
 			<string>tvos-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
 			<string>AppticsApiTracker.framework</string>
@@ -69,9 +69,9 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>AppticsApiTracker.framework/Versions/A/AppticsApiTracker</string>
+			<string>AppticsApiTracker.framework/AppticsApiTracker</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-maccatalyst</string>
+			<string>ios-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
 			<string>AppticsApiTracker.framework</string>
 			<key>SupportedArchitectures</key>
@@ -82,7 +82,7 @@
 			<key>SupportedPlatform</key>
 			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
-			<string>maccatalyst</string>
+			<string>simulator</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>

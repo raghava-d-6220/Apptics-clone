@@ -10,7 +10,7 @@
 		</data>
 		<key>Modules/AppticsAppLock.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		v7L+4AtmbjH6KEJGtA3tKg4O7G0=
+		Nwk6GLMNHqKc3a13RCoIlEo1L/g=
 		</data>
 		<key>Modules/AppticsAppLock.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/AppticsAppLock.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YkB2DxKNZTIG95d4LJRePwk87iY=
+		W2/ab8d3ZfZJoEK17RTBOonSwnU=
 		</data>
 		<key>Modules/AppticsAppLock.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		v7L+4AtmbjH6KEJGtA3tKg4O7G0=
+		Nwk6GLMNHqKc3a13RCoIlEo1L/g=
 		</data>
 		<key>Modules/AppticsAppLock.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/AppticsAppLock.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gaFAYEGoSCT4o5Ol2m6O3cFRLTQ=
+		phVX4MlQCCOfABkN2qU8fUH87h8=
 		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
@@ -284,7 +284,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			avDXV6FBu8FV9AJnw3j+GGlqL8nvfBh2fMFpqtSK6RQ=
+			WtNE6nOXVDPtunf5SmU61QLTlHW0Mpc6VK6Ga+10+eg=
 			</data>
 		</dict>
 		<key>Modules/AppticsAppLock.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -312,14 +312,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			geBUJ3AGxXqYRroDch2p1EeewHOTd2WChwjgZO7na5E=
+			7Q89CxjJdElDB9999+RGkaJ4Oy6xW3XzkZn6Q5EW20E=
 			</data>
 		</dict>
 		<key>Modules/AppticsAppLock.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			avDXV6FBu8FV9AJnw3j+GGlqL8nvfBh2fMFpqtSK6RQ=
+			WtNE6nOXVDPtunf5SmU61QLTlHW0Mpc6VK6Ga+10+eg=
 			</data>
 		</dict>
 		<key>Modules/AppticsAppLock.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -347,7 +347,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s7YaFHKhoYobZrfEyc+NjmS3pC1C/VM/vS6D3WlVy+Y=
+			xkRagFcCEXT8bnHdCOoBRjKKWX01R5TxGW1+VlzuYEo=
 			</data>
 		</dict>
 		<key>ar.lproj/Localizable.strings</key>
